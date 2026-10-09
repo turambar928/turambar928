@@ -11,10 +11,10 @@
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=turambar928&amp;layout=compact&amp;theme=github_dark&amp;hide_border=true&amp;exclude_repo=turambar928.github.io">
+      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=turambar928&amp;layout=compact&amp;theme=github_dark&amp;hide_border=true&amp;exclude_repo=turambar928.github.io&amp;hide=html">
     <img
       height="195"
       alt="Most Used Languages"
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=turambar928&amp;layout=compact&amp;theme=default&amp;hide_border=true&amp;exclude_repo=turambar928.github.io">
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=turambar928&amp;layout=compact&amp;theme=default&amp;hide_border=true&amp;exclude_repo=turambar928.github.io&amp;hide=html">
   </picture>
 </p>
