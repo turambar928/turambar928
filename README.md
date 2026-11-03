@@ -2,19 +2,19 @@
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://github-stats-extended.vercel.app/api?username=turambar928&amp;show_icons=true&amp;theme=github_dark&amp;hide_border=true">
+      srcset="./profile/stats-dark.svg">
     <img
       height="195"
       alt="GitHub Stats"
-      src="https://github-stats-extended.vercel.app/api?username=turambar928&amp;show_icons=true&amp;theme=default&amp;hide_border=true">
+      src="./profile/stats-light.svg">
   </picture>
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=turambar928&amp;layout=compact&amp;theme=github_dark&amp;hide_border=true&amp;exclude_repo=turambar928.github.io&amp;hide=html">
+      srcset="./profile/languages-dark.svg">
     <img
       height="195"
       alt="Most Used Languages"
-      src="https://github-stats-extended.vercel.app/api/top-langs/?username=turambar928&amp;layout=compact&amp;theme=default&amp;hide_border=true&amp;exclude_repo=turambar928.github.io&amp;hide=html">
+      src="./profile/languages-light.svg">
   </picture>
 </p>
