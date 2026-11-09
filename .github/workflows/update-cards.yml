@@ -16,13 +16,14 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v6
 
+      # Add PROFILE_STATS_TOKEN as a repository secret to include accessible private commits.
       - name: Generate dark stats card
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
           options: "username=${{ github.repository_owner }}&show_icons=true&theme=github_dark&hide_border=true"
           path: profile/stats-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PROFILE_STATS_TOKEN || secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
       - name: Generate light stats card
@@ -31,7 +32,7 @@ jobs:
           card: stats
           options: "username=${{ github.repository_owner }}&show_icons=true&theme=default&hide_border=true"
           path: profile/stats-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PROFILE_STATS_TOKEN || secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
       - name: Generate dark languages card
